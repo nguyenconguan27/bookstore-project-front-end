@@ -1,0 +1,28 @@
+.login {
+  margin-top: 200px;
+  h2 {
+    text-align: center;
+  }
+  .col-md-6 {
+    .row {
+      .margin {
+        margin-left: 125px;
+      }
+      .signup {
+        margin-top: 50px;
+
+        width: 100px;
+      }
+    }
+  }
+  .login-input {
+    width: 300px;
+    margin-left: 230px;
+  }
+  .login-form {
+    display: inline-block;
+  }
+  .login-btn {
+    margin-top: 20px;
+  }
+}

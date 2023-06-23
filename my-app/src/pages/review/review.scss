@@ -1,0 +1,43 @@
+.review {
+  .comment {
+    text-align: left;
+    border-bottom: solid 1px #000;
+    .p {
+      word-wrap: break-word;
+    }
+  }
+  .new-comment {
+    border: none;
+    width: 80%;
+    padding: 10px;
+  }
+  .new-comment:focus {
+    outline: none;
+  }
+  #myButton {
+    display: none;
+  }
+  .odd-comment {
+    margin-top: 20px !important;
+  }
+}
+
+.rating {
+  input {
+    display: none;
+  }
+  label {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("./start1.png");
+    background-size: cover;
+    cursor: pointer;
+  }
+  label:hover {
+    background-image: url("start.png");
+  }
+  input:checked ~ label {
+    background-image: url("start.png");
+  }
+}
